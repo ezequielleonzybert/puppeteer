@@ -19,7 +19,7 @@ const puppeteer = require('puppeteer');
     setTimeout(async () => {
         url = 'https://www.correoargentino.com.ar/MiCorreo/public/logout'
         await page.goto(url)
-        // browser.close()
+        browser.close()
     }, 3000);
 
 })();
